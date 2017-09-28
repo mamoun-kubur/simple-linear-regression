@@ -2,6 +2,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+try:
+	from matplotlib import style
+	style.use('thirtyfiveeight')
+except:
+	print("if you cant use style \n sudo pip install --upgrade matplotlib")
+
 
 plt.figure()
 
